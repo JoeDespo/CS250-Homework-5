@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7B7818E02B0D2D860051E3E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7818DF2B0D2D860051E3E4 /* main.cpp */; };
+		7B7818E82B0D2E430051E3E4 /* Dogs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7818E62B0D2E430051E3E4 /* Dogs.cpp */; };
+		7B7819272B1A76990051E3E4 /* CSV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7819252B1A76990051E3E4 /* CSV.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7B7818DC2B0D2D860051E3E4 /* CS250 Homework 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS250 Homework 5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7818DF2B0D2D860051E3E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7B7818E62B0D2E430051E3E4 /* Dogs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dogs.cpp; sourceTree = "<group>"; };
+		7B7818E72B0D2E430051E3E4 /* Dogs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dogs.hpp; sourceTree = "<group>"; };
+		7B7819252B1A76990051E3E4 /* CSV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSV.cpp; sourceTree = "<group>"; };
+		7B7819262B1A76990051E3E4 /* CSV.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSV.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7B7818DF2B0D2D860051E3E4 /* main.cpp */,
+				7B7819252B1A76990051E3E4 /* CSV.cpp */,
+				7B7819262B1A76990051E3E4 /* CSV.hpp */,
+				7B7818E62B0D2E430051E3E4 /* Dogs.cpp */,
+				7B7818E72B0D2E430051E3E4 /* Dogs.hpp */,
 			);
 			path = "CS250 Homework 5";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7819272B1A76990051E3E4 /* CSV.cpp in Sources */,
+				7B7818E82B0D2E430051E3E4 /* Dogs.cpp in Sources */,
 				7B7818E02B0D2D860051E3E4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
